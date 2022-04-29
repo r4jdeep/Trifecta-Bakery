@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a href="index.html" class="navbar-brand mb-0 h1">
+        <img src="logo.jpeg" />
+      </a>
+      <button
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        class="navbar-toggler"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a href="cakes.html" class="nav-link">CAKES</a>
+          </li>
+          <li class="nav-item active">
+            <a href="cart.html" class="nav-link">PRICING</a>
+          </li>
+          <li class="nav-item active">
+            <a href="workshops.html" class="nav-link">WORKSHOPS</a>
+          </li>
+          <li class="nav-item active">
+            <a href="contact.html" class="nav-link">CONTACT</a>
+          </li>
+          <li class="nav-item active">
+            <a href="about.html" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item active">
+            <a href="cart.html" class="nav-link">CART</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="logo">Trifecta Bakery</div>
+
+    <hr class="new2" />
+
+    <h8>CONTACT</h8>
+
+    <section class="contactpicture">
+      <div class="contactpic">
+        <img src="bham.jpg" alt="Birmingham Skyline" class="birmingham" />
+      </div>
+
+      <div class="contact-info">
+        <p10
+          >If you wish to speak to someone directly, please send a WhatsApp
+          message using the Message Now button below, and someone will get back
+          in touch with you as soon as possible. <br /><br /><br /><br />
+          For general enquiries use the form below or send an email to:
+          <br /><br />
+          info@trifectabakery.co.uk <br /><br /><br /><br />
+          For marketing enquiries use the form below or send an email to:
+          <br /><br />
+          marketing@trifectabakery.co.uk</p10
+        >
+      </div>
+    </section>
+
+    <div class="flex-container">
+      <div class="flex-item-left">
+        <h4>WHATSAPP</h4>
+        <img
+          src="whatsapp.svg"
+          alt="Whatsapp message"
+          class="textmessage"
+        /><br /><br />
+        <p2>Chat to me on Whatsapp for a faster response!<br /><br /><br /></p2>
+        <button
+          class="button"
+          type="button"
+          name="button"
+          id="messageNowButton"
+        >
+          <span
+            ><i class="fa fa-mobile" aria-hidden="true"></i> MESSAGE NOW</span
+          ></button
+        ><br /><br />
+        <p3>Raj x</p3><br /><br />
+      </div>
+      <div class="flex-item-right">
+        <h5>GET IN TOUCH</h5>
+        <p4> Please fill in the following fields:</p4>
+        <form action="/action_page.php">
+          <label for="names"></label><br /><br />
+          <input type="text" id="names" name="names" placeholder="Name" />
+          <label for="email"></label><br /><br />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email address"
+          />
+          <label for="message"></label><br /><br />
+          <textarea
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Message"
+          ></textarea>
+          <br /><br />
+          <input type="submit" />
+        </form>
+        <br />
+      </div>
+    </div>
+
+    <section class="footer">
+      <div class="companyname">
+        <hr class="new1" />
+        <p5>The Trifecta Bakery</p5><br /><br />
+        <p6>LET'S GET SOCIAL</p6><br /><br />
+        <!--<hr class="new2">-->
+      </div>
+
+      <div class="socialmedia">
+        <button class="btn" type="button" name="button" id="facebookButton">
+          <i
+            class="fa fa-facebook-square"
+            style="font-size: 80px; color: rgb(66, 103, 178)"
+            aria-hidden="true"
+          ></i></button
+        >&nbsp&nbsp&nbsp&nbsp&nbsp
+
+        <button class="btn" type="button" name="button" id="instagramButton">
+          <i
+            class="fa fa-instagram"
+            style="font-size: 80px; color: rgb(252, 175, 69)"
+            aria-hidden="true"
+          ></i></button
+        >&nbsp&nbsp&nbsp&nbsp&nbsp
+
+        <button class="btn" type="button" name="button" id="twitterButton">
+          <i
+            class="fa fa-twitter"
+            style="font-size: 80px; color: rgb(29, 161, 242)"
+            aria-hidden="true"
+          ></i></button
+        >&nbsp <br /><br />
+      </div>
+      <br /><br />
+
+      <hr class="new1" />
+      <br /><br />
+    </section>
+    <script>
+      /////Facebook button webpage redirect
+      document
+        .getElementById("facebookButton")
+        .addEventListener(`click`, facebookNow);
+      function facebookNow() {
+        window.open("https://en-gb.facebook.com/");
+      }
+
+      /////Instagram button webpage redirect
+      document
+        .getElementById("instagramButton")
+        .addEventListener(`click`, instagramNow);
+      function instagramNow() {
+        window.open("https://www.instagram.com/accounts/login/?hl=en");
+      }
+
+      /////Twitter button webpage redirect
+      document
+        .getElementById("twitterButton")
+        .addEventListener(`click`, twitterNow);
+      function twitterNow() {
+        window.open("https://twitter.com/");
+      }
+
+      //// WhatsApp message button to redirect to WhatsApp page
+      document
+        .getElementById("messageNowButton")
+        .addEventListener(`click`, messageNow);
+      function messageNow() {
+        window.open("https://www.whatsapp.com/");
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
